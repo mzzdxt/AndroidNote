@@ -19,10 +19,9 @@ Activity是构建任何Android应用的基石。有时它用起来很简单，�
 然后和平时一样，把这个主题应用到activity上：
 
 ```xml
-<activity
-		android:name="com.my.app.CustomActivity"
-    android:theme="@style/CustomTheme">
-</activity>
+window.apply {
+    decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+}
 ```
 
 非常简单！！让我们看看它是什么样子。
@@ -162,3 +161,7 @@ ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.content_container)) 
 ```
 
 如果你想了解更多关于Window insets的知识，请访问 [Window insets](https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/ )。
+
+[原文链接](https://proandroiddev.com/android-full-screen-ui-with-transparent-status-bar-ef52f3adde63)
+
+[代码链接](https://github.com/Dvik/TransparentStatusBar)
