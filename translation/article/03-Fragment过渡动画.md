@@ -46,7 +46,7 @@ class GridFragment : Fragment() {
 
 在这一点上，我非常乐观的认为它会生效，但是我实际上看到的是这样：
 
-[]()
+![](https://raw.githubusercontent.com/mzzdxt/AndroidNote/master/translation/imgs/pic_03_01.gif)
 
 所以它在进入的时候根本没有生效，但是在返回的时候过渡效果很好。这只是一个开始。
 
@@ -126,4 +126,8 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 瞧！我们有了过渡效果：
 
+![](https://raw.githubusercontent.com/mzzdxt/AndroidNote/master/translation/imgs/pic_03_02.gif)
+
 你可能会想为什么这个效果看起来和tweet上的效果不一样。我会在后面的文章中进行介绍。下一篇文章将介绍如何获取WindowInsets和Fragment转换一起生效。
+
+原文链接请戳 [这里](https://chris.banes.dev/2018/02/18/fragmented-transitions/)。
