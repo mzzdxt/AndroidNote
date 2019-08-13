@@ -1,6 +1,6 @@
 ## 02-WindowInsets - 布局的监听器
 
-原文来自 [链接](https://chris.banes.dev/2019/04/12/insets-listeners-to-layouts/)。
+原文来自 [链接](https://chris.banes.dev/2019/04/12/insets-listeners-to-layouts/)。官方文档 [WindowInsets](https://developer.android.com/reference/android/view/WindowInsets)。
 
 如果你已经观看过我的[Becoming a Master Window Fitter](https://chris.banes.dev/talks/2017/becoming-a-master-window-fitter-lon/)演讲，你会知道处理window insets是非常复杂的。最近，我一直在改进应用程序中的系统栏处理，使它们能够在状态栏和导航栏后面绘制。我想我已经提出了一些方法，可以使处理insets更加容易一些（希望如此）。
 
